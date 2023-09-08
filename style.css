@@ -1,0 +1,483 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #1D3557;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome section styles */
+#home {
+    background: url("ignant-photography-stephan-zirwes-35.jpeg");
+    opacity: 80%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.welcome {
+    color: #fafafa;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+/*        Why AquaSkills       */
+#about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 3rem;
+}
+
+/*   Find Out More button   */
+.more {
+    background-color: #FFC300;
+    color: #1D3557;
+    border: solid 1px #001D3D;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more:hover {
+    background-color: #A8DADC;
+}
+
+.swim {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 400px;
+    max-height: 600px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #F1FAEE;
+}
+
+.swim>h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.swim>p {
+    color: #1D3557;
+    margin: 35px 0;
+    font-size: 1rem;
+}
+
+.safety {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 400px;
+    max-height: 600px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #F1FAEE;
+}
+
+.safety>h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.safety>p {
+    color: #1D3557;
+    margin: 35px 0;
+    font-size: 1rem;
+}
+
+.fitness {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 5px;
+    max-width: 400px;
+    max-height: 600px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #F1FAEE;
+}
+
+.fitness>h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.fitness>p {
+    color: #1D3557;
+    margin: 35px 0;
+    font-size: 1rem;
+}
+
+/*  Our Location */
+
+.locations h2 {
+    text-align: center;
+    background-color: #1D3557;
+    color: #fafafa;
+    margin: 0 250px 0 250px;
+    border-radius: 10px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin: 0 250px 5px 250px;
+    border-radius: 10px;
+    border: 2px solid #A8DADC;
+}
+
+address {
+    text-align: center;
+    font-style: normal;
+}
+
+/* Centering the In Partnership With section */
+#partnership {
+    text-align: center;
+    padding: 60px 0 25px 0;
+}
+
+/* Styling the partner logos */
+.partnership-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.partnership-logos img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Contact button */
+
+#contact {
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #E63946;
+    color: white;
+    padding: 20px 80px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #A8DADC;
+}
+
+/*    Footer     */
+
+footer p {
+    text-align: center;
+    background-color: #1D3557;
+    color: white;
+}
+
+/*       Form        */
+.form-section {
+    clear: left;
+    background: url("ignant-photography-soo-burnell-poolside-007-1440x1440.webp");
+    background-size: cover;
+    background-position: center;
+    height: 1400px;
+}
+
+.contact-form {
+    margin-top: 150px;
+    color: #004346;
+    background-color: #CDE6FF;
+    border: 5px solid #119da4;
+    max-width: 400px;
+    position: absolute;
+    left: 31%;
+    padding: 30px;
+}
+
+.contact-form>h2 {
+    color: #2f1847;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #655560;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #E63946;
+}
+
+.program {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+}
+
+.message {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+}
+
+.submit-button {
+    margin-top: 25px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #E63946;
+    color: #fafafa;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+/*      Programs      */
+
+#programs {
+    background: url("ignant-photography-soo-burnell-poolside-011.jpeg");
+}
+
+#programs h2 {
+    font-size: 3rem;
+    color: #001D3D;
+    text-align: center;
+}
+
+.programs {
+    display: inline-block;
+    margin: 50px;
+    gap: 15px;
+}
+
+.adults-program {
+    background-color: #457B9D;
+    width: 680px;
+    height: 230px;
+    border: solid #001D3D;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.adults-tab {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    /* Initial position - outside the container */
+    width: 500px;
+    background-color: #FFD60A;
+    color: black;
+    border: solid black;
+    padding: 10px;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+    display: none;
+}
+
+.adults-program:hover {
+    transform: translateX(-10px);
+}
+
+.adults-program:hover .adults-tab {
+    right: 0;
+    /* Bring the content inside the container */
+    display: block;
+}
+
+.adults-program h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: overline
+}
+
+.adults-program p {
+    color: #001D3D;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.children-program {
+    background-color: #A8DADC;
+    width: 680px;
+    height: 380px;
+    border: solid black;
+    float: right;
+    border-radius: 20px;
+    border-color: #001D3D;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.children-tab {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    /* Initial position - outside the container */
+    width: 500px;
+    background-color: #FFD60A;
+    color: black;
+    border: solid black;
+    padding: 10px;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+    display: none;
+}
+
+.children-program:hover {
+    transform: translateX(-10px);
+}
+
+.children-program:hover .children-tab {
+    right: 0;
+    /* Bring the content inside the container */
+    display: block;
+}
+
+.children-program h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.children-program p {
+    color: #001D3D;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fitness-program {
+    background-color: #EDF6F9;
+    color: black;
+    width: 680px;
+    height: 280px;
+    border: solid black;
+    float: left;
+    border-radius: 20px;
+    border-color: #001D3D;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.fitness-tab {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    /* Initial position - outside the container */
+    width: 500px;
+    background-color: #FFD60A;
+    color: black;
+    border: solid black;
+    padding: 10px;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+    display: none;
+}
+
+.fitness-program:hover {
+    transform: translateX(-10px);
+}
+
+.fitness-program:hover .fitness-tab {
+    right: 0;
+    /* Bring the content inside the container */
+    display: block;
+}
+
+.fitness-program h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: overline
+}
+
+.fitness-program p {
+    color: black;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.book-now {
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #001D3D;
+    color: #fafafa;
+    display: block;
+}
+
+.book-now:hover {
+    background-color: #1D3557;
+    color: #F1FAEE;
+}

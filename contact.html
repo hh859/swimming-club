@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaSkills Swim School</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Urbanist:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="swimming.html">Swimming Programs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-----     Form Section     ------->
+
+    <section class="form-section">
+      <form
+        class="contact-form"
+        action="https://formdump.codeinstitute.net/"
+        method="post"
+      >
+        <h2>Have questions or want to get in touch?</h2>
+        <h2>Fill out the form below:</h2>
+        <label for="f_name">First Name:</label>
+        <input
+          type="text"
+          id="f_name"
+          name="f_name"
+          class="text-input"
+          required
+        />
+
+        <label for="l_name">Last Name:</label>
+        <input
+          type="text"
+          id="l_name"
+          name="l_name"
+          class="text-input"
+          required
+        />
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="text-input"
+          required
+        />
+        <label for="number">Phone Number:</label>
+        <input
+          type="tel"
+          id="number"
+          name="number"
+          class="text-input"
+          required
+        />
+
+        <label for="program">Program Type:</label>
+        <br />
+        <select name="program" class="program">
+          <option value="0">Please select program type</option>
+          <option value="SL">Adults Swimming Lessons</option>
+          <option value="WST">Children Swimming Lessons</option>
+          <option value="FSP">Fitness Programs</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <br />
+        <textarea class="message" name="message" rows="40" cols="20"></textarea>
+
+        <button
+          type="submit"
+          class="submit-button"
+          value="Submit"
+          name="send"
+          style="float: none"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+    <!-- In Partnership With section -->
+    <section id="partnership">
+      <h2>In Partnership With</h2>
+      <div class="partnership-logos">
+        <a href="https://www.rlss.org.uk" target="_blank">
+          <img src="RLSS-ON-WHITE_rgb-768x456-1.jpeg" alt="RLSS" />
+        </a>
+        <a href="https://www.speedo.com" target="_blank">
+          <img src="fb-image.png" alt="Speedo Logo" />
+        </a>
+        <a href="https://www.britishswimming.org" target="_blank">
+          <img
+            src="British_Swimming_Statement_-_Edward_Lord.width-600.png"
+            alt="British  Swimming Logo"
+          />
+        </a>
+        <a href="https://www.swimming.org" target="_blank">
+          <img src="Swim_England_500x159px.gif" alt="Swim England" />
+        </a>
+        <a href="https://rnli.org" target="_blank">
+          <img
+            src="royal-national-lifeboat-institution-rnli-logo-vector.png"
+            alt="RNLI"
+        /></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 AquaSkills Swimming Academy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
