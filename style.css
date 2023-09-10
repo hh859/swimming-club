@@ -73,21 +73,6 @@ nav a:hover {
     font-size: 3rem;
 }
 
-/*   Find Out More button   */
-.more {
-    background-color: #FFC300;
-    color: #1D3557;
-    border: solid 1px #001D3D;
-    padding: 5px 10px;
-    margin: 5px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.more:hover {
-    background-color: #A8DADC;
-}
-
 .swim {
     display: inline-block;
     padding-right: 10px;
@@ -152,6 +137,21 @@ nav a:hover {
     color: #1D3557;
     margin: 35px 0;
     font-size: 1rem;
+}
+
+.more {
+    /*   Find Out More button   */
+    background-color: #FFC300;
+    color: #1D3557;
+    border: solid 1px #001D3D;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more:hover {
+    background-color: #A8DADC;
 }
 
 /*  Our Location */
@@ -314,8 +314,7 @@ footer p {
 
 .adults-program {
     background-color: #457B9D;
-    width: 680px;
-    height: 230px;
+
     border: solid #001D3D;
     border-radius: 20px;
     cursor: pointer;
@@ -323,6 +322,7 @@ footer p {
     position: relative;
     display: inline-block;
     padding: 5px 10px;
+    gap: 20px;
 }
 
 .adults-tab {
@@ -363,10 +363,11 @@ footer p {
     text-align: center;
 }
 
+/* End of the Adult swimming program */
+
 .children-program {
     background-color: #A8DADC;
-    width: 680px;
-    height: 380px;
+
     border: solid black;
     float: right;
     border-radius: 20px;
@@ -417,8 +418,7 @@ footer p {
 .fitness-program {
     background-color: #EDF6F9;
     color: black;
-    width: 680px;
-    height: 280px;
+
     border: solid black;
     float: left;
     border-radius: 20px;
@@ -481,3 +481,35 @@ footer p {
     background-color: #1D3557;
     color: #F1FAEE;
 }
+
+/*       Mobile View       */
+@media screen and (max-width: 780px) {
+    .locations h2 {
+        margin: 0;
+    }
+
+    .location {
+        margin: 0;
+    }
+
+    .partnership-logos {
+        gap: 0;
+    }
+
+    .programs {
+        padding: 50px 0;
+        size: 20%
+    }
+
+    .contact-form {
+        /* Positioning form in the page length */
+        left: 0;
+    }
+
+    .RLSS {
+        display: none;
+    }
+
+    .RNLI {
+        display: none;
+    }
