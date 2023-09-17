@@ -1,16 +1,11 @@
-/* Reset some default styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
+:root {
+    --red: #E63946;
+    --berkeleyblue: #1D3557;
+    --honeydew: #F1FAEE;
+    --nonphotoblue: #A8DADC;
+    --oxfordblue: #001D3D;
 }
 
-/* Global styles */
 body {
     font-family: 'Urbanist', sans-serif;
     line-height: 1.6;
@@ -18,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #1D3557;
+    background-color: berkeleyblue;
     color: white;
     padding: 10px 0;
 }
@@ -81,7 +76,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: #F1FAEE;
+    background-color: honeydew;
 }
 
 .swim>h3 {
@@ -90,7 +85,7 @@ nav a:hover {
 }
 
 .swim>p {
-    color: #1D3557;
+    color: berkeleyblue;
     margin: 35px 0;
     font-size: 1rem;
 }
@@ -103,7 +98,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: #F1FAEE;
+    background-color: honeydew;
 }
 
 .safety>h3 {
@@ -112,7 +107,7 @@ nav a:hover {
 }
 
 .safety>p {
-    color: #1D3557;
+    color: berkeleyblue;
     margin: 35px 0;
     font-size: 1rem;
 }
@@ -125,7 +120,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: #F1FAEE;
+    background-color: honeydew;
 }
 
 .fitness>h3 {
@@ -134,16 +129,16 @@ nav a:hover {
 }
 
 .fitness>p {
-    color: #1D3557;
+    color: berkeleyblue;
     margin: 35px 0;
     font-size: 1rem;
 }
 
+/*   Find Out More button   */
 .more {
-    /*   Find Out More button   */
     background-color: #FFC300;
-    color: #1D3557;
-    border: solid 1px #001D3D;
+    color: berkeleyblue;
+    border: solid 1px oxfordblue;
     padding: 5px 10px;
     margin: 5px;
     text-decoration: none;
@@ -151,14 +146,14 @@ nav a:hover {
 }
 
 .more:hover {
-    background-color: #A8DADC;
+    background-color: nonphotoblue;
 }
 
 /*  Our Location */
 
 .locations h2 {
     text-align: center;
-    background-color: #1D3557;
+    background-color: berkeleyblue;
     color: #fafafa;
     margin: 0 250px 0 250px;
     border-radius: 10px;
@@ -172,7 +167,7 @@ nav a:hover {
     padding: 20px;
     margin: 0 250px 5px 250px;
     border-radius: 10px;
-    border: 2px solid #A8DADC;
+    border: 2px solid nonphotoblue;
 }
 
 address {
@@ -180,7 +175,7 @@ address {
     font-style: normal;
 }
 
-/* Centering the In Partnership With section */
+/* Centering the 'In Partnership With' section */
 #partnership {
     text-align: center;
     padding: 60px 0 25px 0;
@@ -207,7 +202,7 @@ address {
 
 .contact-button {
     display: inline-block;
-    background-color: #E63946;
+    background-color: red;
     color: white;
     padding: 20px 80px;
     margin: 20px;
@@ -216,14 +211,14 @@ address {
 }
 
 .contact-button:hover {
-    background-color: #A8DADC;
+    background-color: nonphotoblue;
 }
 
 /*    Footer     */
 
 footer p {
     text-align: center;
-    background-color: #1D3557;
+    background-color: berkeleyblue;
     color: white;
 }
 
@@ -263,7 +258,7 @@ footer p {
 }
 
 .text-input:hover {
-    border-color: #E63946;
+    border-color: red;
 }
 
 .program {
@@ -284,14 +279,14 @@ footer p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #E63946;
+    background-color: red;
     color: #fafafa;
     display: block;
 }
 
 .submit-button:hover {
-    background-color: #1D3557;
-    color: #F1FAEE;
+    background-color: berkeleyblue;
+    color: honeydew;
 }
 
 /*      Programs      */
@@ -314,8 +309,7 @@ footer p {
 
 .adults-program {
     background-color: #457B9D;
-
-    border: solid #001D3D;
+    border: solid oxfordblue;
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
@@ -357,21 +351,18 @@ footer p {
 }
 
 .adults-program p {
-    color: #001D3D;
+    color: oxfordblue;
     margin: 20px 0;
     font-size: 20px;
     text-align: center;
 }
 
-/* End of the Adult swimming program */
-
 .children-program {
-    background-color: #A8DADC;
-
+    background-color: nonphotoblue;
     border: solid black;
     float: right;
     border-radius: 20px;
-    border-color: #001D3D;
+    border-color: oxfordblue;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     position: relative;
@@ -409,7 +400,7 @@ footer p {
 }
 
 .children-program p {
-    color: #001D3D;
+    color: oxfordblue;
     margin: 20px 0;
     font-size: 20px;
     text-align: center;
@@ -418,11 +409,10 @@ footer p {
 .fitness-program {
     background-color: #EDF6F9;
     color: black;
-
     border: solid black;
     float: left;
     border-radius: 20px;
-    border-color: #001D3D;
+    border-color: oxfordblue;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     position: relative;
@@ -472,14 +462,14 @@ footer p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #001D3D;
+    background-color: oxfordblue;
     color: #fafafa;
     display: block;
 }
 
 .book-now:hover {
-    background-color: #1D3557;
-    color: #F1FAEE;
+    background-color: berkeleyblue;
+    color: honeydew;
 }
 
 /*       Mobile View       */
@@ -511,5 +501,17 @@ footer p {
     }
 
     .RNLI {
+        display: none;
+    }
+
+    .adults-tab {
+        display: none;
+    }
+
+    .children-tab {
+        display: none;
+    }
+
+    .fitness-tab {
         display: none;
     }
