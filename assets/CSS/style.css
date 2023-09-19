@@ -1,9 +1,12 @@
-:root {
-    --red: #E63946;
-    --berkeleyblue: #1D3557;
-    --honeydew: #F1FAEE;
-    --nonphotoblue: #A8DADC;
-    --oxfordblue: #001D3D;
+/* Reset some default styles */
+body,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: berkeleyblue;
+    background-color: #1D3557;
     color: white;
     padding: 10px 0;
 }
@@ -76,7 +79,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: honeydew;
+    background-color: #F1FAEE;
 }
 
 .swim>h3 {
@@ -85,7 +88,7 @@ nav a:hover {
 }
 
 .swim>p {
-    color: berkeleyblue;
+    color: #1D3557;
     margin: 35px 0;
     font-size: 1rem;
 }
@@ -98,7 +101,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: honeydew;
+    background-color: #F1FAEE;
 }
 
 .safety>h3 {
@@ -107,7 +110,7 @@ nav a:hover {
 }
 
 .safety>p {
-    color: berkeleyblue;
+    color: #1D3557;
     margin: 35px 0;
     font-size: 1rem;
 }
@@ -120,7 +123,7 @@ nav a:hover {
     max-height: 600px;
     border: solid black;
     border-radius: 10px;
-    background-color: honeydew;
+    background-color: #F1FAEE;
 }
 
 .fitness>h3 {
@@ -129,7 +132,7 @@ nav a:hover {
 }
 
 .fitness>p {
-    color: berkeleyblue;
+    color: #1D3557;
     margin: 35px 0;
     font-size: 1rem;
 }
@@ -138,7 +141,7 @@ nav a:hover {
 .more {
     background-color: #FFC300;
     color: berkeleyblue;
-    border: solid 1px oxfordblue;
+    border: solid 1px #001D3D;
     padding: 5px 10px;
     margin: 5px;
     text-decoration: none;
@@ -146,14 +149,14 @@ nav a:hover {
 }
 
 .more:hover {
-    background-color: nonphotoblue;
+    background-color: #A8DADC;
 }
 
 /*  Our Location */
 
 .locations h2 {
     text-align: center;
-    background-color: berkeleyblue;
+    background-color: #1D3557;
     color: #fafafa;
     margin: 0 250px 0 250px;
     border-radius: 10px;
@@ -167,7 +170,7 @@ nav a:hover {
     padding: 20px;
     margin: 0 250px 5px 250px;
     border-radius: 10px;
-    border: 2px solid nonphotoblue;
+    border: 2px solid #A8DADC;
 }
 
 address {
@@ -202,7 +205,7 @@ address {
 
 .contact-button {
     display: inline-block;
-    background-color: red;
+    background-color: #E63946;
     color: white;
     padding: 20px 80px;
     margin: 20px;
@@ -211,14 +214,14 @@ address {
 }
 
 .contact-button:hover {
-    background-color: nonphotoblue;
+    background-color: #A8DADC;
 }
 
 /*    Footer     */
 
 footer p {
     text-align: center;
-    background-color: berkeleyblue;
+    background-color: #1D3557;
     color: white;
 }
 
@@ -258,7 +261,7 @@ footer p {
 }
 
 .text-input:hover {
-    border-color: red;
+    border-color: #E63946;
 }
 
 .program {
@@ -279,14 +282,14 @@ footer p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: red;
+    background-color: #E63946;
     color: #fafafa;
     display: block;
 }
 
 .submit-button:hover {
-    background-color: berkeleyblue;
-    color: honeydew;
+    background-color: #1D3557;
+    color: #F1FAEE;
 }
 
 /*      Programs      */
@@ -309,7 +312,7 @@ footer p {
 
 .adults-program {
     background-color: #457B9D;
-    border: solid oxfordblue;
+    border: solid #001D3D;
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
@@ -351,18 +354,18 @@ footer p {
 }
 
 .adults-program p {
-    color: oxfordblue;
+    color: #001D3D;
     margin: 20px 0;
     font-size: 20px;
     text-align: center;
 }
 
 .children-program {
-    background-color: nonphotoblue;
+    background-color: #A8DADC;
     border: solid black;
     float: right;
     border-radius: 20px;
-    border-color: oxfordblue;
+    border-color: #001D3D;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     position: relative;
@@ -400,7 +403,7 @@ footer p {
 }
 
 .children-program p {
-    color: oxfordblue;
+    color: #001D3D;
     margin: 20px 0;
     font-size: 20px;
     text-align: center;
@@ -412,7 +415,7 @@ footer p {
     border: solid black;
     float: left;
     border-radius: 20px;
-    border-color: oxfordblue;
+    border-color: #001D3D;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     position: relative;
@@ -462,13 +465,13 @@ footer p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: oxfordblue;
+    background-color: #001D3D;
     color: #fafafa;
     display: block;
 }
 
 .book-now:hover {
-    background-color: berkeleyblue;
+    background-color: #1D3557;
     color: honeydew;
 }
 
