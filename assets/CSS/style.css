@@ -140,7 +140,7 @@ nav a:hover {
 /*   Find Out More button   */
 .more {
     background-color: #FFC300;
-    color: berkeleyblue;
+    color: #1D3557;
     border: solid 1px #001D3D;
     padding: 5px 10px;
     margin: 5px;
@@ -491,7 +491,6 @@ footer p {
 
     .programs {
         padding: 50px 0;
-        size: 20%
     }
 
     .contact-form {
@@ -518,3 +517,4 @@ footer p {
     .fitness-tab {
         display: none;
     }
+}

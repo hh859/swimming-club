@@ -25,7 +25,7 @@
       </nav>
     </header>
 
-    <!-----     Form Section     ------->
+    <!-- Form Section -->
 
     <section class="form-section">
       <form
@@ -72,7 +72,7 @@
 
         <label for="program">Program Type:</label>
         <br />
-        <select name="program" class="program">
+        <select name="program" class="program" id="program">
           <option value="0">Please select program type</option>
           <option value="SL">Adults Swimming Lessons</option>
           <option value="WST">Children Swimming Lessons</option>
@@ -81,7 +81,13 @@
 
         <label for="message">Message:</label>
         <br />
-        <textarea class="message" name="message" rows="40" cols="20"></textarea>
+        <textarea
+          id="message"
+          class="message"
+          name="message"
+          rows="40"
+          cols="20"
+        ></textarea>
 
         <button
           type="submit"
