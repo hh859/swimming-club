@@ -1,39 +1,67 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+AquaSkills Swimming Academy is a fictional swimming club website that offers aqua aerobic classes and swimming lessons for children and adults. Its primary purpose is to attract swimming enthusiasts and get them to book classes and training sessions. The idea of the swimming club project was invented through my previous experience as a swimming athlete and teacher. The website's purpose is educational - benefits of swimming, links to the major swimming organisations and latest events, and commercial-sell service to the audience.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX AIMS
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+- to attract audience of different age groups who are interested in swiming 
+- to attract users to return to the website and book subsequent sessions
+- to provide an easy-to-navigate booking platform with attractive interface
+- offer a fully-responsive design for easy use across various devices
 
-## Codeanywhere Reminders
+## USER STORIES
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+  1. Is swimming for me? "I am a first-time visitor considering signing up to the swimming class, so I am looking for benefits of swimming to my health and additional recommendtions".
+  2. Which class should I book? "I am looking for an advice on what would be the best option for my level of experience".
+  3. Can I book a trial session? "
+  4. ll
+  5. l
+ 
+## DESIGN IDEAS AND DEVELOPMENT 
+My first handwritten idea 
+PHOTO 
+Mobile View 
+Laptop View 
+Features
 
-`python3 -m http.server`
+#### HOME
+Navigation Bar
+The navigation bar provide a navigation across all three pages of the website assisting with easy an dfast navigation. It has thee link pages, which are the Home page, Swimming Programs page, and Contact page. The are positioned on the right-hand side of the screen. On the small screen, they mover to the center. 
+NAV BAR PICTURE
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Header 
+On the home page there is a principal image with the website title over it.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+#### Section 1
 
-`http_server`
+Under the principal image there is a "Why AquaSkills" section with three pragraphs explaining why the users must choose to book classes with AquaSkills. For fast access to more information on each of the offered option there is a "Find Out More" button taking user straight to the Programs page.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Section 2 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This section provide a selection of locations where the classes are conducted. It also has a telephone number should user wish to contact the venue directly for more information.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Section 3 
 
-To log into the Heroku toolbelt CLI:
+In my Partnership section I provided links to the main swimming organisations that offer the latest updates on the main swimming events in the country and internationally. It also serves as an indication that all programs are complient with the national swimming standards. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Section 4
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+A "Contact" button is placed at the bottom of the page providing quick and easy access to the contact form, should user have any questions. 
 
----
+#### Footer
 
-Happy coding!
+Lastly, the footer is positioned at the bottom of the page where copyrights sing is.
+
+## SWIMMING PROGRAMS 
+
+It is a second page of the website that contains detailed description of the classes offered, prices, and a booking link. 
+
+#### Header & Footer
+
+Header and footer remain the same across entire website. 
+
+#### Section 1
+
+It has a plain heading leading straight to the program description. Programs are divided into three separate sections and color-coded. Each of them has a pop-up window with more information on the chosen course and a price. It also has a "Book Now" button for direct access to a booking form.
+
+
