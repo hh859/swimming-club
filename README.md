@@ -15,17 +15,18 @@ Aquaskills Swimming Academy is a fictional swimming club website that offers aqu
 
  
 ## DESIGN IDEAS AND DEVELOPMENT 
-My first handwritten idea 
-PHOTO 
-Mobile View 
-Laptop View 
-Features
-
+  * ### My first handwritten idea 
+ ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Initial%20Design.jpeg)
+  * ### Mobile View
+ ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Mobile%20View.png)
+  * ### Laptop View
+ ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Principal%20Image.png)
+ 
 ### HOME
 Navigation Bar
 The navigation bar provides navigation across all three website pages, assisting with easy and fast navigation. It has three link pages: the Home page, Swimming Programs page, and Contact page. They are positioned on the right-hand side of the screen. On the small screen, they move to the centre. 
 
-* NAV BAR PICTURE
+![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Nav%20Bar%20.png)
 
 #### Header 
 Right under the Navigation Bar is a principle image with the website title. 
@@ -80,18 +81,20 @@ Sections now have an element of transition, sliding to the left when hovering ov
 
 ## Testing 
  * [HTML Validator](https://validator.w3.org)
-  * insert the image
+![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/HTML%20validator.png)
+I tried to fix this error but was not successful. I consulted with my tutor about it. 
+
 * [CSS Validator](https://validator.w3.org)
-  * insert the image
+![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/CSS%20Validator.png)
 
 All testing was done on [Google Chrome Developer Tool](https://developer.chrome.com/docs/devtools/). 
 
 ### Lighthouse 
-insert the imae 
-* Performance scored 70 due to the image size and subsequently reduced loading speed. It could have been improved by reducing the image size but instead, it is left for the users to provide feedback on it. 
+![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Lighthouse.png)
+* Performance scored 80 due to the image size and subsequently reduced loading speed. It could have been improved by reducing the image size but instead, it is left for the users to provide feedback on it. 
 
 ### Known Bugs
-* insert image
+![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Bug.png)
 
 ## Deployment 
 
