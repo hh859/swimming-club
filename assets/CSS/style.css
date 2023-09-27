@@ -45,7 +45,7 @@ nav a:hover {
 
 /* Welcome section styles */
 #home {
-    background: url("/assets/Images/ignant-photography-stephan-zirwes-35.jpeg");
+    background: url("../Images/ignant-photography-stephan-zirwes-35.jpeg");
     opacity: 80%;
     background-size: cover;
     background-position: center;
@@ -217,7 +217,7 @@ address {
     background-color: #A8DADC;
 }
 
-/*    Footer     */
+/*    Footer    */
 
 footer p {
     text-align: center;
@@ -228,7 +228,7 @@ footer p {
 /*       Form        */
 .form-section {
     clear: left;
-    background: url("/assets/Images/ignant-photography-soo-burnell-poolside-007-1440x1440.webp");
+    background: url("../Images/ignant-photography-soo-burnell-poolside-007-1440x1440.webp");
     background-size: cover;
     background-position: center;
     height: 1400px;
