@@ -19,7 +19,11 @@ Aquaskills Swimming Academy is a fictional swimming club website that offers aqu
  ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Mobile%20View.png)
   * #### Laptop View
  ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Principal%20Image.png)
- 
+   * ### Swimming Programs 
+![alt text](https://github.com/hh859/swimming-club/blob/23ee6addb72ce7c77cd17a415853104c0b29ae9b/assets/CSS/Documents/Swimming%20Programs.png)
+  * ### Contact Us
+![alt text](https://github.com/hh859/swimming-club/blob/23ee6addb72ce7c77cd17a415853104c0b29ae9b/assets/CSS/Documents/Contact%20Us.png)
+
 ### Home
 The navigation bar provides navigation across all three website pages, assisting with easy and fast navigation. It has three link pages: the Home page, Swimming Programs page, and Contact page. They are positioned on the right-hand side of the screen. On the small screen, they move to the centre. 
 
