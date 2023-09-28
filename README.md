@@ -99,9 +99,13 @@ All testing was performed on [Google Chrome Developer Tool](https://developer.ch
 ### Known Bugs
 ![alt text](https://github.com/hh859/swimming-club/blob/main/assets/CSS/Documents/Bug.png)
 This issue was resolved by removing the button element. 
+
 ## Deployment 
-  * 
-  * 
+  * Navigate to the Settings button and then Pages on the left side
+  * Under Build and Deployment select 'deploy from a branch'
+  * The link would appear on the top of the page indicating the website has been published
+
+Here is a link to my website  - [Aquaskills Swimming Academy](https://hh859.github.io/swimming-club/)
 
 ## Credits 
 ### Code
@@ -113,7 +117,7 @@ This issue was resolved by removing the button element.
   * All images is the work of Soo Burnell and belong to [Ignant](https://www.ignant.com/2019/07/31/soo-burnells-serene-series-of-swimming-pools-is-inspired-by-wes-andersons-aesthetic/) - which was an inspiration for the design of my website. For the next project, the images from Google would be sourced through usage rights.
 
 ## Acknowledgement
-  * I would like to express a big gratitude to my Tutor Komal, who helped me with coding issues I had throughout the project. Also, I would like to thank my mentor Jack, who helped me navigate the project. 
+  * I would like to express a big gratitude to my Tutor Komal, who provided a lot of help throughout the project. Also, I would like to thank my mentor Jack, who helped me navigate the project. 
     
 
 
